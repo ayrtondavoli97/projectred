@@ -1,0 +1,39 @@
+.nova-square-regular {
+    font-family: "Nova Square", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+ .h2{font-family:  Nova Square, Rajdhani; color: darkred;}
+  
+ *{font-family:Nova Square, Rajdhani ;color: darkred;} 
+
+.timeline{border-left: 5px solid darkred;}
+
+.titletimeline{margin-left: 110px;}
+.palla{position: relative;
+}
+.palla::before{content:'.';
+background-color: white;
+height: 20px;
+width: 20px;
+border: 2px solid red;
+position: absolute;
+left: -25px; 
+top: 7px;
+border-radius: 50%;
+border-color: darkred;
+color: white;}
+
+
+.mar{margin-top: 150px;}
+
+.back{background-image: url(./single.png);
+     background-size: contain;
+      background-position-x: right;
+     background-repeat: no-repeat;}
+
+    
+.noborder{border-color: white;}
+
+.marg{margin-left: 100px;}
